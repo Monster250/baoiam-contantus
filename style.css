@@ -333,6 +333,7 @@ section {
  */
     .input-icons span select#cars {
         min-width: 61vw;
+        padding-left: 10px;
     }
     .social a {
         width: 10px;
@@ -453,10 +454,10 @@ section {
     }
     .contact-left-1 .contact-item .contact-menu h3 {
         font-size: 1.2rem;
-        font-weight: 434;
-        padding: -23px;
-        padding-left: 15px;
-        margin-bottom: -10px;
+font-weight: 434;
+padding: -23px;
+padding-left: 1px;
+margin-bottom: -10px;
     }
     .input-icons span select {
         width: -moz-available;
@@ -622,8 +623,14 @@ header .nav-item a:hover {
     .contact-right h2 {
         text-align: center;
     }
+    
+    .input-icons span textarea {
+  line-height: 8px;
+}
     .input-icons span {
         margin: 10px;
+        padding-bottom: 0rem;
+        padding-top: 3px;
     }
 }
 
