@@ -638,7 +638,13 @@ header .nav-item a:hover {
 .social a {
     margin-right: 0.5rem;
 }
-
+@media (max-width: 1025px){
+    .btn-3{
+        display:block;
+        margin:0 auto;
+        
+    }
+    
 @media (max-width: 991px) {
     header .navbar-brand {
         padding-left: 3rem;
