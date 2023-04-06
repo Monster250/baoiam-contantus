@@ -331,6 +331,13 @@ section {
     gap: 1rem;
   }
  */
+    .input-icons span select#cars {
+        min-width: 61vw;
+    }
+    .social a {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -359,6 +366,7 @@ section {
     }
     .contact-right {
         margin-right: -2.5px;
+        margin-top: -0.2rem;
     }
     .contact-left .contact-heading {
         display: none;
@@ -442,6 +450,16 @@ section {
         width: 111%;
         padding-right: 15px;
         padding-left: 15px;
+    }
+    .contact-left-1 .contact-item .contact-menu h3 {
+        font-size: 1.2rem;
+        font-weight: 434;
+        padding: -23px;
+        padding-left: 15px;
+        margin-bottom: -10px;
+    }
+    .input-icons span select {
+        width: -moz-available;
     }
 }
 
