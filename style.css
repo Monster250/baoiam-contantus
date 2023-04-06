@@ -333,7 +333,7 @@ section {
  */
     .input-icons span select#cars {
         min-width: 61vw;
-        padding-left: 10px;
+        padding-left: 5px;
     }
     .social a {
         width: 10px;
@@ -347,7 +347,7 @@ section {
         /* font-weight: 550; */
     }
     .input-icons {
-        padding: 5px;
+        padding: 1px;
         /* background-color: #df1919; */
     }
     .main-comment {
