@@ -356,18 +356,15 @@ section {
 }
 
 @media (max-width: 600px) {
-    .input-icons span select {
-        /* font-size: 0.7rem; */
-        /* font-weight: 550; */
-    }
+   
     .input-icons {
         padding: 1px;
-        /* background-color: #df1919; */
+        
     }
     .main-comment {
-        /* padding: 10px 10px 10px 10px; */
+        
         padding: 0px;
-        /* background-color: aqua; */
+        
     }
     select#cars{
         width:-webkit-fill-available;
