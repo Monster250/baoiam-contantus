@@ -128,7 +128,7 @@ section {
     padding: 5px 10px;
 }
 
-.contact-item .contact-menu span {
+.contact-item .contact-menu span:hover {
     background-color: rgb(240, 208, 196);
     padding: 20px;
     border-radius: 50%;
