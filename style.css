@@ -368,6 +368,16 @@ section {
         padding: 0px;
         /* background-color: aqua; */
     }
+    select#cars{
+        width:-webkit-fill-available;
+    }
+    .form{
+        width:105%;
+    }
+    .input-icons {
+    padding: 24px;
+    }
+    
 }
 
 @media (max-width: 300px) {}
@@ -662,6 +672,12 @@ header .nav-item a:hover {
         width: 289px;
     }
 }
+@media (max-width: 1025px){
+    .btn-3{
+        margin-left:32%;
+    }
+    
+}
 
 @media (max-width: 576px) {
     header .navbar-brand {
@@ -677,6 +693,7 @@ header .nav-item a:hover {
         background-color: white;
         padding: 9px 0.5rem;
         outline: none;
+        width:88%;
     }
     .contact-item .contact-menu h4 {
         font-size: 17px;
