@@ -640,6 +640,7 @@ header .nav-item a:hover {
     }
 }
 
+
 @media (max-width: 576px) {
     header .navbar-brand {
         padding-left: 1rem;
@@ -655,6 +656,10 @@ header .nav-item a:hover {
         padding: 9px 0.5rem;
         outline: none;
     }
+    .contact-item .contact-menu h4 {
+  font-size: 17px;
+  padding-left: 0px;
+}
 }
 
 footer {
