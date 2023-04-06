@@ -9,6 +9,8 @@
 
 
 /* ********************* ****/
+
+
 /***/
 
 * {
@@ -356,24 +358,18 @@ section {
 }
 
 @media (max-width: 600px) {
-   
     .input-icons {
         padding: 1px;
-        
     }
     .main-comment {
-        
         padding: 0px;
-        
     }
-    select#cars{
-        width:-webkit-fill-available;
+    select#cars {
+        width: -webkit-fill-available;
     }
-    .form{
-        width:105%;
+    .form {
+        width: 105%;
     }
-    
-    
 }
 
 @media (max-width: 300px) {}
@@ -638,15 +634,17 @@ header .nav-item a:hover {
 .social a {
     margin-right: 0.5rem;
 }
+
+
 /**/
-@media (max-width: 1025px){
-    .btn-3{
-        display:block;
-        margin:0 auto;
-        
+
+@media (max-width: 1025px) {
+    .btn-3 {
+        display: block;
+        margin: 0 auto;
     }
 }
-    
+
 @media (max-width: 991px) {
     header .navbar-brand {
         padding-left: 3rem;
@@ -676,6 +674,8 @@ header .nav-item a:hover {
         width: 289px;
     }
 }
+
+
 /**
 @media (max-width: 1025px){
     .btn-3{
@@ -698,7 +698,7 @@ header .nav-item a:hover {
         background-color: white;
         padding: 9px 0.5rem;
         outline: none;
-        width:88%;
+        width: 88%;
     }
     .contact-item .contact-menu h4 {
         font-size: 17px;
