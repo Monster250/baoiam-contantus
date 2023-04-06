@@ -672,12 +672,13 @@ header .nav-item a:hover {
         width: 289px;
     }
 }
-/*@media (max-width: 1025px){
+/**
+@media (max-width: 1025px){
     .btn-3{
         margin-left:32%;
     }
     
-}*/
+}**/
 
 @media (max-width: 576px) {
     header .navbar-brand {
