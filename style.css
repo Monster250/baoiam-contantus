@@ -417,6 +417,7 @@ section {
     }
     .contact-item .contact-menu h4 {
         font-size: 17px;
+        padding-left:0px;
     }
     .form {
         box-sizing: border-box;
