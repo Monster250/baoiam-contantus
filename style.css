@@ -358,7 +358,7 @@ section {
 
 @media (max-width: 300px) {}
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .contact-right h2 {
         font-size: 25px;
         font-weight: 700;
