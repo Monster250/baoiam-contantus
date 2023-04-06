@@ -169,6 +169,15 @@ section {
     text-align: center;
 }
 
+.contact-right h2 span {
+    background: -webkit-linear-gradient(0deg, #fa2424, #fb8721);
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid red;
+}
+
 .main-comment {
     padding: 30px 40px 40px 40px;
     /* background-color: #df1919; */
@@ -296,6 +305,10 @@ section {
     transition: 3s;
 }
 
+.contact-btn:hover {
+    background: -webkit-linear-gradient(45deg, #ff8000, #ff0000);
+}
+
 
 /* Media Query  */
 
@@ -417,7 +430,7 @@ section {
     }
     .contact-item .contact-menu h4 {
         font-size: 17px;
-        padding-left:0px;
+        padding-left: 0px;
     }
     .form {
         box-sizing: border-box;
@@ -455,23 +468,27 @@ section {
     }
     .contact-left-1 .contact-item .contact-menu h3 {
         font-size: 1.2rem;
-font-weight: 434;
-padding: -23px;
-padding-left: 1px;
-margin-bottom: -10px;
+        font-weight: 434;
+        padding: -23px;
+        padding-left: 1px;
+        margin-bottom: -10px;
     }
     .input-icons span select {
         width: -moz-available;
     }
     .input-icons i.fa-bookmark {
-    padding: 1.25rem;
-}
+        padding: 1.25rem;
+    }
 }
 
 
 /* Mobile View  */
 
-@media (max-width: 1380px) {}
+@media (max-width: 1000px) {
+    .form {
+        margin-right: -19%;
+    }
+}
 
 @media (max-width: 663px) {}
 
@@ -518,6 +535,10 @@ img {
     border: none;
     border-radius: 5px;
     transition: 3s;
+}
+
+.btn-3:hover {
+    background: -webkit-linear-gradient(45deg, #ff8000, #ff0000);
 }
 
 .btn-1:hover {
@@ -603,8 +624,9 @@ header .nav-item a:hover {
     border-style: none;
     color: rgb(29, 29, 29);
     background-color: white;
-    padding: 9px 2.5rem;
+    padding: 9px 2.5rem 10px 10px;
     outline: none;
+    width: 264px;
 }
 
 .social a {
@@ -624,10 +646,9 @@ header .nav-item a:hover {
     .contact-right h2 {
         text-align: center;
     }
-    
     .input-icons span textarea {
-  line-height: 8px;
-}
+        line-height: 8px;
+    }
     .input-icons span {
         margin: 10px;
         padding-bottom: 0rem;
@@ -637,10 +658,10 @@ header .nav-item a:hover {
 
 @media (max-width: 769px) {
     .form input {
-        padding: 9px 2.6rem;
+        padding: 9px 2.6rem 10px 10px;
+        width: 289px;
     }
 }
-
 
 @media (max-width: 576px) {
     header .navbar-brand {
@@ -658,9 +679,9 @@ header .nav-item a:hover {
         outline: none;
     }
     .contact-item .contact-menu h4 {
-  font-size: 17px;
-  padding-left: 0px;
-}
+        font-size: 17px;
+        padding-left: 0px;
+    }
 }
 
 footer {
@@ -720,7 +741,10 @@ footer .contact-us p div i {
     margin-top: 20px;
     transition: 1s;
 }
+
+
 /**/
+
 .social a:hover {
     background: #fff;
     color: #fa2424;
