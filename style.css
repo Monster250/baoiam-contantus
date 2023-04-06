@@ -461,6 +461,9 @@ section {
     .input-icons span select {
         width: -moz-available;
     }
+    .input-icons i.fa-bookmark {
+    padding: 1.25rem;
+}
 }
 
 
